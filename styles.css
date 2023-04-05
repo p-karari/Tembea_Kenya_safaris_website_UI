@@ -457,3 +457,88 @@ body {
     font-weight: 900;   
     color: #0a0a0a;
 }
+
+#about_us {
+    margin-top: 2rem;
+}
+
+.about_us_header {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.mission {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 15px;
+}
+
+.mission_img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 500px;
+    transition:all 2s ease-in-out;
+}
+
+.mission_img:hover {
+    filter: grayscale(1.1);
+    transform:rotateZ(360deg) ;
+}
+
+.__header {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: goldenrod ;
+}
+
+.mission_statement {
+    font-size: 1.3rem;
+    color: #a49b97;
+    font-family: Cambria,  'Times New Roman', serif;
+}
+
+.team_section {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team_member_img {
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 60%;
+    left: 120px;
+    /* margin-bottom: 1rem; */
+}
+
+.team_member_description {
+    color: white;
+    width: 15rem;
+    height: 13rem;
+    border: 1px solid rgba(255, 255, 255, 0.809);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem;
+    position: relative;
+    border-radius: 8px;
+    margin: 2rem;
+}
+
+.name {
+    font-family: Cambria,  'Times New Roman', serif;
+}
+
+.name >  span {
+    color: goldenrod;
+}
