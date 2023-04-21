@@ -530,7 +530,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 2rem;
-    position: relative;
+    /* position: relative; */
     border-radius: 8px;
     margin: 2rem;
 }
@@ -541,4 +541,23 @@ body {
 
 .name >  span {
     color: goldenrod;
+}
+
+.team_member_cont {
+    position: relative;
+}
+
+.article_card {
+    width: 20rem;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.review_articles {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
 }
