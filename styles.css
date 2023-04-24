@@ -505,10 +505,12 @@ body {
 }
 
 .team_section {
-    margin-top: 10rem;
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+        /* border: 2px solid white; */
+
 }
 
 .team_member_img {
@@ -524,7 +526,7 @@ body {
 .team_member_description {
     color: white;
     width: 15rem;
-    height: 13rem;
+    height: 12rem;
     border: 1px solid rgba(255, 255, 255, 0.809);
     display: flex;
     flex-direction: column;
@@ -551,13 +553,75 @@ body {
     width: 20rem;
     border: 2px solid #fff;
     border-radius: 12px;
-    color: #fff;
+    color: white;
     font-weight: 900;
     font-size: 1.1rem;
+    padding: 5px;
+}
+
+.article_body {
+    color: #b6afa690;
+
 }
 
 .review_articles {
     display: flex;
     justify-content: space-around;
     gap: 15px;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.article_header {
+    /* border: 2px solid white; */
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    margin: 40px 20px;
+}
+
+.team__header {
+        /* border: 2px solid white; */
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.contact_svgs {
+    /* width: 10px;
+    height: 10px; */
+    padding: 0.5rem;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+
+}
+
+.contact_svgs svg {
+    width: 35px;
+    height: 35px;
+    transition: all 0.2s ease-in;
+
+}
+
+.contact_svgs > svg:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+    /* color: #ff0058; */
+}
+
+.contacts {
+    color: goldenrod;
+
+}
+
+.review
+
+.reviewer__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
